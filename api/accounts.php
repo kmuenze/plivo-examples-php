@@ -51,7 +51,7 @@
     // Create a sub account
     $params = array(
             'name' => 'TestingSubAcount', # Name of the subaccount
-            'eabled' => 'True' # Specify if the subaccount should be enabled or not
+            'enabled' => 'True' # Specify if the subaccount should be enabled or not
         );
 
     $response = $p->create_subaccount($params);
