@@ -10,7 +10,7 @@
     # Search for new number
     $params = array(
             'country_iso' => 'US', # The ISO code A2 of the country
-            'type' => 'local', # The type of number you are looking for. The possible number types are local, national and tollfree.
+            'type' => 'fixed', # The type of number you are looking for. The possible number types are fixed, mobile and tollfree.
             'pattern' => '210', # Represents the pattern of the number to be searched. 
             'region' => 'Texas' # This filter is only applicable when the number_type is local. Region based filtering can be performed.
         );
